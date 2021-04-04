@@ -22,6 +22,7 @@ spec:
     spec:
       nodeSelector:
         kubernetes.io/os: linux
+        beta.kubernetes.io/instance-type: "t3.medium"
       serviceAccountName: ebs-csi-controller-sa
       priorityClassName: system-cluster-critical
       tolerations:
