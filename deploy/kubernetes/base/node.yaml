@@ -30,7 +30,6 @@ spec:
                 - fargate
       nodeSelector:
         kubernetes.io/os: linux
-        beta.kubernetes.io/instance-type: "t3.medium"
       hostNetwork: true
       serviceAccountName: ebs-csi-node-sa
       priorityClassName: system-node-critical
